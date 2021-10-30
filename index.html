@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library </title>
+    <Link rel="stylesheet" href="styles.css">
 </head>
+
+
 
 <body>
 
@@ -36,15 +39,17 @@
 
     <h3>@ Containers </h3>
     <h1> Fluid Container </h1>
-    <div> This is a Fluid Container which goes till the End of the Page </div>
+    <div class="container"> This is a Fluid Container which goes till the End of the Page </div>
 
     <h2>Center Container </h2>
-    <div> Another div which is the center Container which will go at the center for the Specificed Length! </div>
+    <div class="container container-center"> Another div which is the center Container which will go at the center for
+        the Specificed Length! </div>
     <hr>
     <h3>@Links</h3>
-    <a href="https://www.w3schools.com/html/html_blocks.asp">This is Link tag &lt; a &gt;*** This tag is a inline tag
+    <a class=" link link--primary" href="https://www.w3schools.com/html/html_blocks.asp">This is Link tag &lt; a &gt;***
+        This tag is a inline tag
         doesnot take newline </a>
-    <a href="https://github.com/GarvG"> MY GITHUB </a>
+    <a class="link link--secondary" href="https://github.com/GarvG"> MY GITHUB </a>
     <hr>
 
 
@@ -54,8 +59,8 @@
 
 
 
-    <h2>@Links</h2>
-    <ul "list-style-type:circle">
+    <h2>@Lists</h2>
+    <ul class="list list--style" "list-style-type:circle">
         Here are our List About Tags used uptil now
         <li> Heading Tag </li>
         <li> Paragraph Tag</li>
@@ -63,9 +68,15 @@
         <li> Link Tag </li>
         <li> Div Tag</li>
     </ul>
+    <ul class="list">
+        How to make List-Inline<br><br>
+         <li class="list--inline"> Inline-one</li>
+         <li class="list--inline"> Inline-two</li>
+         <li class="list--inline"> Inline-three</li>
+    </ul>
 
     <h3>reverese order list </h3>
-    <ol reversed display:inline>
+    <ol reversed >
         <li> THIS</li>
         <li> IS </li>
         <li> AN </li>
@@ -82,25 +93,24 @@
 
 
 
+    <h2>@ Navigation Bar</h2>
+    <nav class="navigation">
+        
+        <div class="navigation-brand">
+            I'm a Developer  
+            <ul class="list-ul">
 
-
-<h2>@ Navigation Bar</h2>
-    <nav>
-        <div>
-            I'm a Developer
-            <ul>
-
-                <li>
-                    <a href="/">Background</a>
+                <li class="list--inline">
+                    <a class="link" href="/">Background</a>
 
                 </li>
 
-                <li>
-                    <a href="/">Education</a>
+                <li class="list--inline">
+                    <a class="link" href="/">Education</a>
                 </li>
 
-                <li>
-                    <a href="/">Contact Me </a>
+                <li class="list--inline">
+                    <a class="link" href="/">Contact Me </a>
 
                 </li>
 
@@ -109,16 +119,17 @@
         </div>
 
     </nav>
-<hr>
+    <hr>
 
-<h2>@ Header</h2>
-<header>
+    <h2>@ Header</h2>
+    <header>
 
-<img src="images/hero.svg"/> <br>
-<strong>In order to understand recursion, one must first understand recursion 😌</strong> 
+        <img src="images/hero.svg" /> <br>
+        <strong>In order to understand recursion, one must first understand recursion 😌</strong>
 
 
-</header>
+    </header>
+
 
 
 
