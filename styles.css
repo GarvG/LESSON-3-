@@ -2,10 +2,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 :root {
     --primary-color: #93C5FD;
+    --dark-grey: #212121;
+    --off-white: #FFDDCC
 }
 
 
@@ -20,17 +23,15 @@ body {
     margin: auto;
 }
 
-.link--primary 
-{
+.link--primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: aliceblue;
     margin-right: 0.5rem;
-    
+
 }
 
-.link--secondary 
-{
+.link--secondary {
     color: #24292f;
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
@@ -41,32 +42,81 @@ body {
     text-decoration: none;
 }
 
-hr
-{
+hr {
     margin: 2rem 0rem;
 }
 
-.list
-{
+.list {
     list-style: none;
 }
-.list--inline
-{
+
+.list--inline {
     display: inline;
     padding: 0rem 1rem;
 }
-.navigation-brand
-{
+
+.navigation {
     color: white;
     background-color: var(--primary-color);
-    
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
 }
-.navigation .link
-{
+
+.navigation .link {
 
     color: white;
 }
- .list-ul
-{
+
+.list-ul {
     text-align: right;
+}
+
+.hero {
+    padding: 1rem 0.5rem;
+}
+
+.hero .hero-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+
+    color: var(--dark-grey);
+    font-size: x-large;
+    text-align: center;
+
+}
+
+
+.hero .hero-heading .hero-heading-highlight {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.Footer
+{
+    background-color: var(--primary-color);
+    padding:2rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 2rem;
+
+}
+.Footer .link
+{
+    color: white;
 }
