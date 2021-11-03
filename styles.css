@@ -36,10 +36,26 @@ body {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+.link-blogs
+{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color:var(--primary-color);
+}
 
+.blog-link
+{
+    padding-right: 24rem;
+}
 .link {
     padding: 0.5rem 1rem;
     text-decoration: none;
+}
+
+.navigation .link-active
+{
+    font-weight: bold;
+    
 }
 
 hr {
@@ -81,6 +97,13 @@ hr {
     margin: auto;
 }
 
+.hero-img-invest
+{
+    max-width: 500px;
+    display: block;
+    margin: auto; 
+}
+
 .hero .hero-heading {
 
     color: var(--dark-grey);
@@ -119,4 +142,9 @@ hr {
 .Footer .link
 {
     color: white;
+}
+.Footer .Footer-Header
+{
+    font-weight: bold;
+    font-size: large;
 }
